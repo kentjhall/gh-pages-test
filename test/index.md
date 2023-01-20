@@ -1,1 +1,1 @@
-../index.md
+../dir.md

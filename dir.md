@@ -1,6 +1,5 @@
 # test16
 {% assign doclist = site.static_files %}
-<p>HERE: {{ page.dir }}, {{ page.url }}, {{ page.path }}</p>
 <ul>
 {% for doc in doclist %}
     {% unless doc.extname == '.md' or doc.extname == '.jpg' or doc.extname == '.png' or doc.extname == '.css' %}
